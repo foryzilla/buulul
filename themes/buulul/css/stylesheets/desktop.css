@@ -1,0 +1,27 @@
+/*-- Mixing declarations --*/
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* line 19, ../sass/desktop.scss */
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 100%;
+  }
+
+  /*-- Categories Holder --*/
+  /* line 24, ../sass/desktop.scss */
+  .categories #blog {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  /* line 27, ../sass/desktop.scss */
+  .post_row .col-sm-4 {
+    margin: 10px 0;
+    padding: 0;
+  }
+}
+/*Do not remove, ever!*/
+/* Large devices (large desktops, 1200px and up) */
+/*Do not remove, ever!*/

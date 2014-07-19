@@ -1,0 +1,366 @@
+/* line 1, ../scss/coming-soon.scss */
+#coming_soon {
+  margin-top: -20px;
+}
+/* line 4, ../scss/coming-soon.scss */
+#coming_soon .head {
+  background: url("../../img/backgrounds/color-splash.jpg") no-repeat;
+  display: block;
+  padding-top: 160px;
+  height: 450px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 15, ../scss/coming-soon.scss */
+#coming_soon .head .line {
+  margin-left: 0;
+}
+/* line 21, ../scss/coming-soon.scss */
+#coming_soon .text h4 {
+  margin: 0 0 35px 0;
+  color: #fff;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 38px;
+  text-shadow: 1px 1px 0px #2a284d;
+}
+/* line 30, ../scss/coming-soon.scss */
+#coming_soon .text p {
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+}
+/* line 36, ../scss/coming-soon.scss */
+#coming_soon .text p span {
+  font-style: normal;
+  text-transform: uppercase;
+}
+/* line 43, ../scss/coming-soon.scss */
+#coming_soon .count {
+  margin: 0;
+  float: right;
+}
+/* line 47, ../scss/coming-soon.scss */
+#coming_soon .count .box {
+  text-align: center;
+  float: left;
+  margin-left: -10px;
+}
+/* line 53, ../scss/coming-soon.scss */
+#coming_soon .count .first {
+  margin: 0 0 0 90px;
+}
+/* line 57, ../scss/coming-soon.scss */
+#coming_soon .count .circle {
+  height: 98px;
+  width: 98px;
+  text-align: center;
+  border-radius: 100%;
+  margin-bottom: 8px;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 65, ../scss/coming-soon.scss */
+#coming_soon .count .circle span {
+  color: #fff;
+  display: inline-block;
+  font-size: 33px;
+  margin-top: 36px;
+  font-weight: bold;
+}
+/* line 74, ../scss/coming-soon.scss */
+#coming_soon .count p {
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+/* line 83, ../scss/coming-soon.scss */
+#coming_soon .email_wrapp .wrapp {
+  background: #fff;
+  width: 98%;
+  margin: 0 auto 60px;
+  padding: 32px 0 21px;
+  height: 103px;
+  float: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 1px 1px 2px 1px #cecece;
+}
+/* line 93, ../scss/coming-soon.scss */
+#coming_soon .email_wrapp .wrapp p {
+  float: left;
+  font-size: 17px;
+  margin: 8px 0px 0px 48px;
+}
+/* line 99, ../scss/coming-soon.scss */
+#coming_soon .email_wrapp .wrapp input[type="text"] {
+  float: left;
+  font-size: 16px;
+  border-radius: 3px;
+  height: 36px;
+  margin-bottom: 0;
+  width: 31.5%;
+  margin-left: 25px;
+}
+/* line 110, ../scss/coming-soon.scss */
+#coming_soon .email_wrapp .wrapp a.send {
+  text-transform: uppercase;
+  color: #fff;
+  border: 0 none;
+  box-shadow: none;
+  margin: 0px 70px 0 0;
+  background: #1189D9;
+  font-weight: bold;
+  text-shadow: none;
+  padding: 8px 10px;
+  font-size: 14px;
+  float: right;
+  -webkit-transition: background linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: background linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: background linear 0.2s, box-shadow linear 0.2s;
+  transition: background linear 0.2s, box-shadow linear 0.2s;
+}
+/* line 127, ../scss/coming-soon.scss */
+#coming_soon .email_wrapp .wrapp a.send:hover {
+  background: #252528;
+}
+/* line 134, ../scss/coming-soon.scss */
+#coming_soon .email_wrapp .line {
+  margin-left: 0;
+}
+/* line 139, ../scss/coming-soon.scss */
+#coming_soon .social {
+  text-align: center;
+  margin: 0px;
+}
+/* line 143, ../scss/coming-soon.scss */
+#coming_soon .social p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 10px 0 0;
+  bottom: 9px;
+  position: relative;
+}
+/* line 152, ../scss/coming-soon.scss */
+#coming_soon .social a {
+  margin-left: 10px;
+  display: inline-block;
+}
+/* line 156, ../scss/coming-soon.scss */
+#coming_soon .social a span {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+}
+/* line 161, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico1, #coming_soon .social a span.ico1h {
+  background-position: 0px 0px;
+}
+/* line 165, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico2, #coming_soon .social a span.ico2h {
+  background-position: -37px 0px;
+}
+/* line 169, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico3, #coming_soon .social a span.ico3h {
+  background-position: -75px 0px;
+}
+/* line 173, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico4, #coming_soon .social a span.ico4h {
+  background-position: -112px -1px;
+}
+/* line 177, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico5, #coming_soon .social a span.ico5h {
+  background-position: -151px 0px;
+}
+/* line 181, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico6, #coming_soon .social a span.ico6h {
+  background-position: -188px -1px;
+}
+/* line 185, ../scss/coming-soon.scss */
+#coming_soon .social a span.ico7, #coming_soon .social a span.ico7h {
+  background-position: -226px 0px;
+}
+/* line 192, ../scss/coming-soon.scss */
+#coming_soon .social a:hover span.icons {
+  display: none;
+}
+/* line 196, ../scss/coming-soon.scss */
+#coming_soon .social a:hover span.iconsh {
+  display: inline-block;
+}
+/* line 204, ../scss/coming-soon.scss */
+#coming_soon .social span.iconsh {
+  display: none;
+}
+/* line 210, ../scss/coming-soon.scss */
+#coming_soon .icons {
+  background: url("../../img/socialicons2.png") no-repeat;
+  width: 265px;
+  height: 36px;
+}
+/* line 216, ../scss/coming-soon.scss */
+#coming_soon .iconsh {
+  background: url("../../img/socialicons_h.png") no-repeat;
+  width: 265px;
+  height: 36px;
+}
+
+/* Responsive
+-------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 228, ../scss/coming-soon.scss */
+  #coming_soon .head {
+    padding-top: 80px;
+    height: 390px;
+  }
+  /* line 233, ../scss/coming-soon.scss */
+  #coming_soon .count {
+    text-align: center;
+    width: 37%;
+  }
+  /* line 237, ../scss/coming-soon.scss */
+  #coming_soon .count .box {
+    margin: 0 0 13px 0;
+  }
+  /* line 241, ../scss/coming-soon.scss */
+  #coming_soon .count .first {
+    margin: 0;
+  }
+  /* line 245, ../scss/coming-soon.scss */
+  #coming_soon .count .circle {
+    float: none;
+    display: inline-block;
+  }
+  /* line 252, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp {
+    text-align: center;
+    height: auto;
+    padding: 30px 0 30px;
+  }
+  /* line 257, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp p {
+    float: none;
+    margin: 0 0 19px 0;
+  }
+  /* line 262, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp input[type="text"] {
+    float: none;
+    width: 43%;
+    margin: 0 1px 0 0;
+    display: inline-block;
+  }
+  /* line 270, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp a.send {
+    float: none;
+    margin: 0 0 0 7px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 282, ../scss/coming-soon.scss */
+  #coming_soon .head {
+    text-align: center;
+    background: none;
+    margin-bottom: 80px;
+    padding-top: 70px;
+    height: auto;
+  }
+  /* line 290, ../scss/coming-soon.scss */
+  #coming_soon .text {
+    margin-bottom: 20px;
+  }
+  /* line 293, ../scss/coming-soon.scss */
+  #coming_soon .text h4 {
+    color: #333;
+    text-shadow: none;
+  }
+  /* line 298, ../scss/coming-soon.scss */
+  #coming_soon .text p {
+    color: #333;
+  }
+  /* line 303, ../scss/coming-soon.scss */
+  #coming_soon .count {
+    float: none;
+  }
+  /* line 306, ../scss/coming-soon.scss */
+  #coming_soon .count .pull-right {
+    float: none!important;
+  }
+  /* line 309, ../scss/coming-soon.scss */
+  #coming_soon .count .first {
+    margin: 0;
+  }
+  /* line 313, ../scss/coming-soon.scss */
+  #coming_soon .count .box {
+    display: inline-block;
+    float: none;
+  }
+  /* line 318, ../scss/coming-soon.scss */
+  #coming_soon .count .circle {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100px;
+    height: 100px;
+  }
+  /* line 323, ../scss/coming-soon.scss */
+  #coming_soon .count .circle span {
+    font-size: 35px;
+    margin-top: 39px;
+  }
+  /* line 329, ../scss/coming-soon.scss */
+  #coming_soon .count p {
+    color: #333;
+  }
+  /* line 335, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 342, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp p {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  /* line 347, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp input[type="text"] {
+    float: left;
+    width: 77%;
+    margin-left: 0;
+  }
+  /* line 354, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp a.send {
+    float: left;
+    margin-left: 22px;
+    margin-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  /* line 368, ../scss/coming-soon.scss */
+  #coming_soon .count .circle {
+    height: 73px;
+    width: 73px;
+  }
+  /* line 372, ../scss/coming-soon.scss */
+  #coming_soon .count .circle span {
+    margin-top: 26px;
+    font-size: 30px;
+  }
+  /* line 381, ../scss/coming-soon.scss */
+  #coming_soon .email_wrapp .wrapp input[type="text"] {
+    width: 70%;
+  }
+  /* line 388, ../scss/coming-soon.scss */
+  #coming_soon .social p {
+    display: block;
+    margin: 16px 0 3px 0;
+  }
+  /* line 393, ../scss/coming-soon.scss */
+  #coming_soon .social a {
+    margin-left: 0px;
+  }
+}

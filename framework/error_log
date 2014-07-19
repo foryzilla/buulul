@@ -1,0 +1,16 @@
+[19-Feb-2014 21:26:18 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "SiteTree" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5775_2.MYI'; try to repair it in /home1/insectov/public_html/buulul/framework/model/MySQLDatabase.php on line 592
+[19-Feb-2014 22:29:59 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5775_1.MYI'; try to repair it in /home1/insectov/public_html/buulul/framework/model/MySQLDatabase.php on line 592
+[19-Feb-2014 23:05:01 America/Denver] PHP Fatal error:  Couldn't run query: 
+SHOW FULL FIELDS IN "Member" 
+
+Incorrect key file for table '/ramdisk/mysql/tmp/#sql_5775_0.MYI'; try to repair it in /home1/insectov/public_html/buulul/framework/model/MySQLDatabase.php on line 592
+[27-May-2014 23:07:00 America/Denver] PHP Fatal error:  Call to a member function destroy() on a non-object in /home1/insectov/public_html/buulul/framework/filesystem/Folder.php on line 197
+[31-May-2014 23:15:17 America/Denver] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home1/insectov/public_html/buulul/framework/model/MySQLDatabase.php on line 91
+[28-Jun-2014 14:46:55 America/Denver] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home1/insectov/public_html/buulul/framework/model/MySQLDatabase.php on line 91
+[30-Jun-2014 00:56:37 America/Denver] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home1/insectov/public_html/buulul/framework/model/MySQLDatabase.php on line 91

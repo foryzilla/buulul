@@ -1,0 +1,70 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: $screen-mb-min) {
+    main{
+        text-align: center;    
+    }
+    #blog{
+        .post_row .post .text{
+            width: 100%;
+            margin: 0;
+        }    
+    } 
+    .section_header{
+        margin: 24px 0 20px;    }
+    .categories{
+        #blog .post_row .post{
+            width: auto;
+            padding-bottom: 0;
+        }
+        #blog .container .post_row .col-sm-3{
+            @include center-block();
+        }
+    }
+    .categories-container{
+        .post_row .post .img img{
+            @include imgResize(90%, 90%);
+        }
+    }
+    #map_canvas{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}/*-- NEVER REMOVE ME! --*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+}/*-- NEVER REMOVE ME! --*/
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+    main.categories{
+        width: 992px;
+        @include center-block();
+    } 
+    .container,
+    .navbar-static-top .container,
+    .navbar-fixed-top .container,
+    .navbar-fixed-bottom .container{
+        @include widthPercentage(100%);
+    }
+    .post_row .col-sm-4{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .categories-container{
+        .col-sm-3{
+            margin-bottom: 30px;
+        }
+    }
+}/*-- NEVER REMOVE ME! --*/
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+}/*-- NEVER REMOVE ME! --*/
+
+/* We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices.*/
+/*@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }*/

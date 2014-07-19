@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sheadawson/silverstripe-rateable": "dev-master"
+    }
+}

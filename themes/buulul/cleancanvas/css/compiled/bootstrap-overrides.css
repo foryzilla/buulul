@@ -1,0 +1,110 @@
+@media (min-width: 1200px) {
+  /* line 2, ../scss/bootstrap-overrides.scss */
+  .row {
+    *zoom: 1;
+  }
+
+  /* line 6, ../scss/bootstrap-overrides.scss */
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+
+  /* line 11, ../scss/bootstrap-overrides.scss */
+  .row:after {
+    clear: both;
+  }
+
+  /* line 17, ../scss/bootstrap-overrides.scss */
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 940px;
+  }
+}
+/* 
+  Bootstrap 3 by default keeps the navbar visible on tablets.
+  From here onwards it's to get the navbar to collapse starting on 991px - tablets
+*/
+@media (max-width: 991px) {
+  /* line 32, ../scss/bootstrap-overrides.scss */
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  /* line 41, ../scss/bootstrap-overrides.scss */
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  /* line 46, ../scss/bootstrap-overrides.scss */
+  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 56, ../scss/bootstrap-overrides.scss */
+  .navbar .collapse {
+    display: block !important;
+  }
+}
+@media (max-width: 991px) {
+  /* line 63, ../scss/bootstrap-overrides.scss */
+  .navbar .navbar-header {
+    float: none;
+  }
+  /* line 66, ../scss/bootstrap-overrides.scss */
+  .navbar .navbar-toggle {
+    display: block;
+  }
+  /* line 69, ../scss/bootstrap-overrides.scss */
+  .navbar .collapse {
+    display: none !important;
+  }
+  /* line 72, ../scss/bootstrap-overrides.scss */
+  .navbar .navbar-collapse {
+    max-height: 340px;
+    overflow-x: visible;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+  }
+  /* line 79, ../scss/bootstrap-overrides.scss */
+  .navbar .navbar-collapse.in {
+    overflow-y: auto;
+  }
+  /* line 83, ../scss/bootstrap-overrides.scss */
+  .navbar ul.navbar-nav {
+    padding: 0px 20px;
+  }
+  /* line 85, ../scss/bootstrap-overrides.scss */
+  .navbar ul.navbar-nav.navbar-right {
+    float: left !important;
+  }
+  /* line 88, ../scss/bootstrap-overrides.scss */
+  .navbar ul.navbar-nav > li {
+    float: none;
+  }
+  /* line 91, ../scss/bootstrap-overrides.scss */
+  .navbar ul.navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 5px 15px 5px 35px;
+    font-size: 15px;
+  }
+  /* line 98, ../scss/bootstrap-overrides.scss */
+  .navbar ul.navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #fff;
+    background: none;
+  }
+}

@@ -1,0 +1,114 @@
+/*-- Header --*/
+.section_header{
+    margin: 24px 0 20px;    
+}
+header#mainHeader{
+    min-height: 80px;
+    background-color: #046792 !important;
+
+    .navbar.sticky,
+    .navbar.navbar-inverse,
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus{
+      background-color: #046792;
+    }
+
+}
+
+/*-- Body --*/
+body{
+  background-color: #F2F2F2;
+}
+main{
+    padding: 0 0 30px;
+}
+.post-text-container,
+.author_box{
+    margin: 18px auto 0;
+    width: 83%;
+    line-height: $default-line-height;
+    font-size: $default-font-size;
+}
+.isotope-item{
+    background: $white-background-color;
+    margin-left: 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 1px #e0e0e0;    
+}
+.img-thumbnail{
+    padding-bottom: 0;
+}
+/*-- Home Page --*/
+#main{
+    min-height: 81px;
+    margin: 81px 0 0 0;
+}
+#portfolio {
+    margin-top: 30px;
+
+    #filters{
+        margin-bottom: 15px;
+    }
+} 
+
+/*-- Categories Holder --*/
+.categories #blog{
+    margin-top: 0;
+    
+    .container .post_row .col-sm-3{
+        max-width: 237px;
+        margin-right: 5px;
+        padding: 0;
+    }
+    .post_row .post{
+        padding-top: 0px;
+    }
+    
+}
+#blog{
+    margin-top: 0px;
+    
+    .post_row .post{
+        padding-top: 20px;
+    }
+    .post_row .post:hover{
+        @include hover-pink();
+     }
+    .post_row .post .img img{
+        @include center-block;
+        @include desaturate;
+    }
+    .post_row .post .img img:hover{
+        @include center-block;
+        @include saturate;
+    }
+    .rateable-ui{
+        margin: 0 auto;
+    }
+}
+#blog.categories-container {
+    .post_row .post .text{
+        padding-bottom: 18px;
+        text-align: center;
+        line-height: 21px;
+    }
+    .post{
+        min-height: 400px;
+    }
+}
+/*-- google map --*/
+#map_canvas {
+        width: 500px;
+        height: 400px;
+        background-color: #CCC;
+      }
+/*-- Footer --*/
+#footer{
+    background-color: #046792 !important;
+    margin-top: $margin-reset;
+    .credits{
+        border: 0;
+    }
+}
+
+

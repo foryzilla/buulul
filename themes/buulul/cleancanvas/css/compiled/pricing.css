@@ -1,0 +1,390 @@
+/*Pricing Option 1*/
+/* line 2, ../scss/pricing.scss */
+#in_pricing {
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+/* line 6, ../scss/pricing.scss */
+#in_pricing .head {
+  text-align: center;
+  margin-bottom: 70px;
+}
+/* line 10, ../scss/pricing.scss */
+#in_pricing .head h3 {
+  font-size: 35px;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  color: #252528;
+}
+/* line 18, ../scss/pricing.scss */
+#in_pricing .head h6 {
+  font-size: 18px;
+  margin: 0;
+  color: #8E8E8F;
+  font-weight: normal;
+}
+/* line 26, ../scss/pricing.scss */
+#in_pricing .charts_wrapp {
+  margin-bottom: 40px;
+}
+/* line 29, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan {
+  border-radius: 6px;
+  box-shadow: 0 1px 3px 1px #d6d6d6;
+  background-color: #fff;
+  width: 95%;
+  position: relative;
+}
+/* line 36, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .wrapper {
+  padding: 33px 30px 26px 30px;
+}
+/* line 40, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan h3 {
+  color: #535353;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 28px;
+  margin: 0 0 5px 0;
+  line-height: 25px;
+}
+/* line 49, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .price {
+  font-size: 17px;
+  color: #1189D9;
+  margin-top: 16px;
+}
+/* line 55, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .price span.dollar {
+  font-size: 32px;
+  position: relative;
+  top: -6px;
+  margin-right: 3px;
+}
+/* line 62, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .price span.qty {
+  font-size: 47px;
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+}
+/* line 69, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .price span.month {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+}
+/* line 77, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .features {
+  margin-top: 30px;
+}
+/* line 80, ../scss/pricing.scss */
+#in_pricing .charts_wrapp .plan .features p {
+  color: #838385;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+/* line 91, ../scss/pricing.scss */
+#in_pricing .plan a.order {
+  background-color: #2190DB;
+  text-align: center;
+  margin: 25px auto 0;
+  width: 48%;
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+}
+/* line 105, ../scss/pricing.scss */
+#in_pricing .plan a.order:hover {
+  background: #252528;
+}
+/* line 113, ../scss/pricing.scss */
+#in_pricing .pro .plan {
+  width: 100%;
+  top: -20px;
+  box-shadow: 0 0 7px 0 #d6d6d6;
+  border: 1px solid #d9d9d9;
+}
+/* line 119, ../scss/pricing.scss */
+#in_pricing .pro .plan .wrapper {
+  padding: 36px 30px 35px 30px;
+}
+/* line 124, ../scss/pricing.scss */
+#in_pricing .pro .plan img.ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 131, ../scss/pricing.scss */
+#in_pricing .pro .plan a.order {
+  margin-top: 35px;
+}
+/* line 138, ../scss/pricing.scss */
+#in_pricing .standar .plan {
+  float: right;
+}
+/* line 143, ../scss/pricing.scss */
+#in_pricing .start {
+  width: 100%;
+  text-align: center;
+}
+/* line 146, ../scss/pricing.scss */
+#in_pricing .start p {
+  font-size: 24px;
+  display: inline-block;
+  color: #5B5B5D;
+  font-style: italic;
+  line-height: 26px;
+  margin: 0 18px 0 0;
+}
+/* line 155, ../scss/pricing.scss */
+#in_pricing .start a {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 7px 17px;
+  font-size: 17px;
+  background: #252528;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+}
+/* line 166, ../scss/pricing.scss */
+#in_pricing .start a:hover {
+  background: #2190DB;
+}
+
+/*Frequent Questions*/
+/* line 174, ../scss/pricing.scss */
+#faq {
+  margin-bottom: 50px;
+}
+/* line 178, ../scss/pricing.scss */
+#faq .block .box {
+  margin-bottom: 50px;
+}
+/* line 182, ../scss/pricing.scss */
+#faq .block .box p.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+/* line 188, ../scss/pricing.scss */
+#faq .block .box p.answ {
+  font-size: 14px;
+  line-height: 22px;
+}
+/* line 196, ../scss/pricing.scss */
+#faq .right {
+  float: right;
+}
+
+/* Pricing Option 2 */
+/* line 202, ../scss/pricing.scss */
+#in_pricing2 {
+  margin-bottom: 40px;
+}
+/* line 207, ../scss/pricing.scss */
+#in_pricing2 .section_header h3 span {
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 214, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp {
+  margin-bottom: 40px;
+}
+/* line 217, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan {
+  border-radius: 6px;
+  box-shadow: 0 1px 3px 1px #d6d6d6;
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+}
+/* line 224, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan .wrapper {
+  padding: 33px 30px 26px 30px;
+}
+/* line 228, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan .price {
+  font-size: 17px;
+  color: #1189D9;
+  margin-top: 16px;
+}
+/* line 235, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan .price span.dollar {
+  font-size: 32px;
+  position: relative;
+  top: -6px;
+  margin-right: 3px;
+}
+/* line 242, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan .price span.qty {
+  font-size: 47px;
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+}
+/* line 251, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan .features {
+  margin-top: 30px;
+}
+/* line 254, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan .features p {
+  color: #838385;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+/* line 261, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan h3 {
+  color: #535353;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 28px;
+  margin: 0 0 5px 0;
+  line-height: 25px;
+}
+/* line 271, ../scss/pricing.scss */
+#in_pricing2 .charts_wrapp .plan a.order {
+  width: 80%;
+}
+/* line 281, ../scss/pricing.scss */
+#in_pricing2 .plan .price span.month {
+  font-weight: bold;
+  font-size: 17px;
+}
+/* line 289, ../scss/pricing.scss */
+#in_pricing2 .plan a.order {
+  background-color: #2190DB;
+  text-align: center;
+  margin: 25px auto 0;
+  width: 48%;
+  display: block;
+  padding: 3px 0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+}
+/* line 303, ../scss/pricing.scss */
+#in_pricing2 .plan a.order:hover {
+  background: #252528;
+}
+/* line 312, ../scss/pricing.scss */
+#in_pricing2 .ultra .plan {
+  top: -13px;
+  box-shadow: 0px 0px 7px 0 #d6d6d6;
+  border: 1px solid #d9d9d9;
+}
+/* line 319, ../scss/pricing.scss */
+#in_pricing2 .ultra .plan .wrapper img.ribbon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 330, ../scss/pricing.scss */
+#in_pricing2 .black .plan {
+  background: #252528;
+  box-shadow: none;
+}
+/* line 334, ../scss/pricing.scss */
+#in_pricing2 .black .plan .wrapper {
+  padding: 35px 25px 30px 25px;
+}
+/* line 338, ../scss/pricing.scss */
+#in_pricing2 .black .plan h3 {
+  color: #fff;
+}
+/* line 342, ../scss/pricing.scss */
+#in_pricing2 .black .plan h6 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+}
+/* line 349, ../scss/pricing.scss */
+#in_pricing2 .black .plan p {
+  font-size: 16px;
+  color: #adadad;
+  margin: 20px 0 38px;
+  line-height: 23px;
+}
+/* line 358, ../scss/pricing.scss */
+#in_pricing2 .black a.order {
+  background: #535356;
+  color: #fff;
+  width: 87%;
+  padding: 6px 0;
+}
+/* line 364, ../scss/pricing.scss */
+#in_pricing2 .black a.order:hover {
+  background: #2190DB;
+}
+
+/* Responsive
+-------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 379, ../scss/pricing.scss */
+  #in_pricing .plan a.order {
+    width: 64%;
+  }
+
+  /* line 389, ../scss/pricing.scss */
+  #in_pricing2 .plan a.order {
+    width: 64%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 400, ../scss/pricing.scss */
+  #in_pricing .charts_wrapp .plan {
+    margin: 0 auto 30px;
+    width: 95%;
+  }
+  /* line 407, ../scss/pricing.scss */
+  #in_pricing .plan .wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 414, ../scss/pricing.scss */
+  #in_pricing .pro .plan {
+    top: 0;
+    width: 95%;
+  }
+  /* line 421, ../scss/pricing.scss */
+  #in_pricing .standar .plan {
+    float: none;
+  }
+  /* line 427, ../scss/pricing.scss */
+  #in_pricing .start p {
+    margin-bottom: 20px;
+  }
+  /* line 431, ../scss/pricing.scss */
+  #in_pricing .start a {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  /* line 441, ../scss/pricing.scss */
+  #in_pricing2 .charts_wrapp .plan {
+    margin: 0 auto 30px;
+    width: 95%;
+  }
+  /* line 448, ../scss/pricing.scss */
+  #in_pricing2 .plan .wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 455, ../scss/pricing.scss */
+  #in_pricing2 .ultra .plan {
+    top: 0;
+  }
+}

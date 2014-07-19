@@ -1,0 +1,78 @@
+/* line 1, ../scss/backgrounds.scss */
+#backgrounds {
+  margin-top: 70px;
+}
+/* line 4, ../scss/backgrounds.scss */
+#backgrounds .row {
+  margin-bottom: 30px;
+}
+/* line 8, ../scss/backgrounds.scss */
+#backgrounds .photo {
+  position: relative;
+}
+/* line 11, ../scss/backgrounds.scss */
+#backgrounds .photo .circle {
+  position: absolute;
+  text-align: center;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 82px;
+  width: 82px;
+  left: 41%;
+  top: 25%;
+}
+/* line 21, ../scss/backgrounds.scss */
+#backgrounds .photo .circle span {
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+  margin-top: 29px;
+  display: inline-block;
+}
+/* line 28, ../scss/backgrounds.scss */
+#backgrounds .photo .circle span.doble {
+  margin-top: 19px;
+}
+/* line 34, ../scss/backgrounds.scss */
+#backgrounds .photo img {
+  margin: 0 auto;
+}
+
+/* Responsive
+-------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 46, ../scss/backgrounds.scss */
+  #backgrounds .photo .circle {
+    top: 12%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 55, ../scss/backgrounds.scss */
+  #backgrounds .row {
+    margin-bottom: 0;
+  }
+  /* line 59, ../scss/backgrounds.scss */
+  #backgrounds .photo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* line 63, ../scss/backgrounds.scss */
+  #backgrounds .photo .circle {
+    top: 23%;
+  }
+}
+@media (max-width: 480px) {
+  /* line 72, ../scss/backgrounds.scss */
+  #backgrounds .row {
+    margin-bottom: 0;
+  }
+  /* line 76, ../scss/backgrounds.scss */
+  #backgrounds .photo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  /* line 80, ../scss/backgrounds.scss */
+  #backgrounds .photo .circle {
+    top: 23%;
+  }
+}
