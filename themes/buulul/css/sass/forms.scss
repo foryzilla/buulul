@@ -1,0 +1,10 @@
+form{
+    input[type="text"],
+    input[type="email"],
+    input[type="password"]
+    {
+        width: 100%;
+        height: auto !important;
+        border-radius: 0 !important;
+    }
+}

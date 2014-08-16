@@ -9,10 +9,9 @@ class RegistrationPage_Controller extends Page_Controller{
     static $allowed_actions = array('RegistrationForm');
     //Generate the registration form
     function RegistrationForm(){
-	
-	$nameField = TextField::create('Name')->addExtraClass('form-control-temp');
-	$emailField = EmailField::create('Email')->addExtraClass('form-control-temp');
-	$confirmPasswordField = ConfirmedPasswordField::create('Password')->addExtraClass('form-control-temp');
+	$nameField = TextField::create('Name');//->addExtraClass('form-control');	
+	$emailField = EmailField::create('Email');//->addExtraClass('form-control');
+	$confirmPasswordField = ConfirmedPasswordField::create('Password');//->addExtraClass('form-control');
 	
 	$fields = new Fieldlist(
 			$nameField,			

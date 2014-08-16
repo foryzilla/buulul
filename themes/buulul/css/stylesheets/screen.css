@@ -203,9 +203,14 @@ main {
 #blog.categories-container .post {
   min-height: 400px;
 }
+/* line 98, ../sass/custom.scss */
+#blog.categories-container .btn-block {
+  margin: 0 auto 5px;
+  max-width: 95%;
+}
 
 /*-- google map --*/
-/* line 100, ../sass/custom.scss */
+/* line 104, ../sass/custom.scss */
 #map_canvas {
   width: 500px;
   height: 400px;
@@ -213,14 +218,23 @@ main {
 }
 
 /*-- Footer --*/
-/* line 106, ../sass/custom.scss */
+/* line 110, ../sass/custom.scss */
 #footer {
   background-color: #046792 !important;
   margin-top: 0;
 }
-/* line 109, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 #footer .credits {
   border: 0;
+}
+
+/* line 5, ../sass/forms.scss */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  height: auto !important;
+  border-radius: 0 !important;
 }
 
 /* Extra small devices (phones, less than 768px) */

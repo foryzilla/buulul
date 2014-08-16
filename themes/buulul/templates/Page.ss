@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   $MetaTags(false)
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="$ThemeDir/cleancanvas/css/compiled/theme.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="$ThemeDir/cleancanvas/css/compiled/about.css">
@@ -45,7 +45,7 @@
   </main>
   <% include Footer %>
   <script src="//code.jquery.com/jquery-latest.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script src="$ThemeDir/cleancanvas/js/theme.js"></script>
   <script src="$ThemeDir/cleancanvas/js/jquery.isotope.min.js"></script>
   

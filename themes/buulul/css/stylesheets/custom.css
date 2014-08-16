@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$default-line-height".
-        on line 29 of /Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/custom.scss
+        on line 29 of /Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/custom.scss
 
 Backtrace:
-/Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/custom.scss:29
+/Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/custom.scss:29
 /Users/mikegonzalez/.rvm/gems/ruby-1.9.3-p385/gems/sass-3.2.6/lib/sass/script/variable.rb:49:in `_perform'
 /Users/mikegonzalez/.rvm/gems/ruby-1.9.3-p385/gems/sass-3.2.6/lib/sass/script/node.rb:40:in `perform'
 /Users/mikegonzalez/.rvm/gems/ruby-1.9.3-p385/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -60,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$default-line-height\".\A         on line 29 of /Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/custom.scss"; }
+  content: "Syntax error: Undefined variable: \"$default-line-height\".\A         on line 29 of /Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/custom.scss"; }
