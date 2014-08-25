@@ -80,7 +80,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 5, ../sass/custom.scss */
 header#mainHeader {
-  min-height: 80px;
+  min-height: 91px;
   background-color: #046792 !important;
 }
 /* line 12, ../sass/custom.scss */
@@ -208,9 +208,16 @@ main {
   margin: 0 auto 5px;
   max-width: 95%;
 }
+/* line 102, ../sass/custom.scss */
+#blog.categories-container .back-button {
+  display: block;
+  margin-top: 25px;
+  padding: 8px 0;
+  width: 115px;
+}
 
 /*-- google map --*/
-/* line 104, ../sass/custom.scss */
+/* line 110, ../sass/custom.scss */
 #map_canvas {
   width: 500px;
   height: 400px;
@@ -218,12 +225,12 @@ main {
 }
 
 /*-- Footer --*/
-/* line 110, ../sass/custom.scss */
+/* line 116, ../sass/custom.scss */
 #footer {
   background-color: #046792 !important;
   margin-top: 0;
 }
-/* line 113, ../sass/custom.scss */
+/* line 119, ../sass/custom.scss */
 #footer .credits {
   border: 0;
 }

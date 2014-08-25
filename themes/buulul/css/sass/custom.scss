@@ -3,7 +3,7 @@
     margin: 24px 0 20px;    
 }
 header#mainHeader{
-    min-height: 80px;
+    min-height: 91px;
     background-color: #046792 !important;
 
     .navbar.sticky,
@@ -98,6 +98,12 @@ main{
     .btn-block{
         margin: 0 auto 5px;
         max-width: 95%;
+    }
+    .back-button{
+        display: block;
+        margin-top: 25px;
+        padding: 8px 0;
+        width: 115px;
     }
 }
 /*-- google map --*/

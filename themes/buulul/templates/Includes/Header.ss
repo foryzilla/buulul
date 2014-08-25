@@ -1,8 +1,8 @@
-<header id="mainHeader" class="clearfix">
+<header id="mainHeader">
 <% include Navigation %>
 </header>
 <!-- do not delete this empty div -->
-<div class="clearfix"></div>
+<!--<div class="clearfix"></div>-->
 <% if $CurrentMember %>                                        
        <p>Welcome $FirstName $Surname.</p>
 <% end_if %>

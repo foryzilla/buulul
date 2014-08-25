@@ -45,6 +45,8 @@
   </main>
   <% include Footer %>
   <script src="//code.jquery.com/jquery-latest.js"></script>
+  <script src="$ThemeDir/javascript/jquery.lazyload.min.js" type="text/javascript"></script>
+  <script src="$ThemeDir/javascript/custom.buulul.js" type="text/javascript"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script src="$ThemeDir/cleancanvas/js/theme.js"></script>
   <script src="$ThemeDir/cleancanvas/js/jquery.isotope.min.js"></script>

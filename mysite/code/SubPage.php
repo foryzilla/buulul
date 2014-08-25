@@ -11,9 +11,11 @@ class SubPage extends Page{
     );                    
     public function getCMSFields() {
         //set default width and height to the image upload previou file.
-        $uploadField = new UploadField('ThumbnailImage');        
+        
+        $uploadField = UploadField::create('ThumbnailImage')->addExtraClass('lazy');
+        //$uploadField = new UploadField('ThumbnailImage');        
         $uploadField->setPreviewMaxWidth(100);
-        $uploadField->setPreviewMaxHeight(100);
+        $uploadField->setPreviewMaxHeight(100);        
         
         $fields = parent::getCMSFields();
         $dateField = new DateField('Date');
