@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined variable: "$screen-mb-min".
-        on line 2 of /Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/cssMediaQueries.scss
+        on line 2 of /Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/cssMediaQueries.scss
 
-1: /Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/cssMediaQueries.scss
+1: /Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/cssMediaQueries.scss
 
 Backtrace:
-/Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/cssMediaQueries.scss:2
+/Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/cssMediaQueries.scss:2
 /Users/mikegonzalez/.rvm/gems/ruby-1.9.3-p385/gems/sass-3.2.6/lib/sass/script/variable.rb:49:in `_perform'
 /Users/mikegonzalez/.rvm/gems/ruby-1.9.3-p385/gems/sass-3.2.6/lib/sass/script/node.rb:40:in `perform'
 /Users/mikegonzalez/.rvm/gems/ruby-1.9.3-p385/gems/sass-3.2.6/lib/sass/tree/visitors/perform.rb:398:in `block in run_interp_no_strip'
@@ -56,4 +56,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$screen-mb-min\".\A         on line 2 of /Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/cssMediaQueries.scss\A \A 1: /Applications/MAMP/htdocs/buulul.com/themes/buulul/css/sass/cssMediaQueries.scss"; }
+  content: "Syntax error: Undefined variable: \"$screen-mb-min\".\A         on line 2 of /Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/cssMediaQueries.scss\A \A 1: /Applications/MAMP/htdocs/buulul/themes/buulul/css/sass/cssMediaQueries.scss"; }
