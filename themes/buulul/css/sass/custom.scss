@@ -119,6 +119,10 @@ main{
     .credits{
         border: 0;
     }
+    /* overriding cleancanvas, but remove after new social media has been added to the footer. - start */
+    min-height: 0;
+    padding-top: 0;
+    /* overriding cleancanvas, but remove after new social media has been added to the footer. - end */
 }
 
 

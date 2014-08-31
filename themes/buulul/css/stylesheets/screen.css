@@ -229,6 +229,10 @@ main {
 #footer {
   background-color: #046792 !important;
   margin-top: 0;
+  /* overriding cleancanvas, but remove after new social media has been added to the footer. - start */
+  min-height: 0;
+  padding-top: 0;
+  /* overriding cleancanvas, but remove after new social media has been added to the footer. - end */
 }
 /* line 119, ../sass/custom.scss */
 #footer .credits {

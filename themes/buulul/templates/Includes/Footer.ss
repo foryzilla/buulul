@@ -3,7 +3,7 @@
 		<div class="row credits">
 			<div class="col-md-12">
 			  <div class="row social">
-			      <div class="col-md-12">
+			      <!--<div class="col-md-12">
 				  <a href="#" class="facebook">
 				      <span class="socialicons ico1"></span>
 				      <span class="socialicons_h ico1h"></span>
@@ -32,11 +32,11 @@
 				      <span class="socialicons ico7"></span>
 				      <span class="socialicons_h ico7h"></span>
 				  </a>
-			      </div>
+			      </div>-->
 			  </div>
 			  <div class="row copyright">
 			      <div class="col-md-12">
-				  © $Now.Year Buulul. All rights reserved.
+				  &#169; $Now.Year Buulul.com All rights reserved.
 			      </div>
 			  </div>
 	      </div>            
