@@ -1,8 +1,8 @@
 <div id="blog" class="categories-container">        
         <div class="container">
-            <script>
-                document.write('<a href="' + document.referrer + '" class="back-button btn btn-warning btn-xs">Back To Categories</a>');
-            </script>    
+            <% loop $Parent %>    
+                <a href="categories" class="back-button btn btn-warning btn-xs">Back To $Title</a>
+            <% end_loop %>
             <div class="section_header">
                 <h3>$Title</h3>
                 <!--<input type="text" class="search-query form-control" placeholder="Search">-->                 

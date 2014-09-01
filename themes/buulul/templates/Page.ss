@@ -34,8 +34,7 @@
   <script src="$ThemeDir/cleancanvas/js/index-slider.js"></script>
   <script src="$ThemeDir/cleancanvas/js/jquery.countdown.min.js"></script>
   <script src="$ThemeDir/javascript/custom.buulul.js" type="text/javascript"></script>
-   
-<% include Analyticstracking %>
+  <% include Analyticstracking %>
 </body>
 </html>
 

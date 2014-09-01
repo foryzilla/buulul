@@ -208,24 +208,17 @@ main {
   margin: 0 auto 5px;
   max-width: 95%;
 }
-/* line 102, ../sass/custom.scss */
-#blog.categories-container .back-button {
+
+/* line 103, ../sass/custom.scss */
+.back-button {
   display: block;
   margin-top: 25px;
   padding: 8px 0;
   width: 115px;
 }
 
-/*-- google map --*/
-/* line 110, ../sass/custom.scss */
-#map_canvas {
-  width: 500px;
-  height: 400px;
-  background-color: #CCC;
-}
-
 /*-- Footer --*/
-/* line 116, ../sass/custom.scss */
+/* line 110, ../sass/custom.scss */
 #footer {
   background-color: #046792 !important;
   margin-top: 0;
@@ -234,7 +227,7 @@ main {
   padding-top: 0;
   /* overriding cleancanvas, but remove after new social media has been added to the footer. - end */
 }
-/* line 119, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 #footer .credits {
   border: 0;
 }
@@ -284,14 +277,17 @@ form input[type="password"] {
     height: 90%;
   }
 
-  /* line 28, ../sass/cssMediaQueries.scss */
+  /*-- google map --*/
+  /* line 29, ../sass/cssMediaQueries.scss */
   #map_canvas {
-    width: 100%;
-    height: 200px;
     margin-bottom: 10px;
   }
+  /* line 31, ../sass/cssMediaQueries.scss */
+  #map_canvas iframe {
+    width: 100%;
+  }
 
-  /* line 34, ../sass/cssMediaQueries.scss */
+  /* line 37, ../sass/cssMediaQueries.scss */
   #footer .credits {
     margin-top: 0;
   }
@@ -301,7 +297,7 @@ form input[type="password"] {
 /*-- NEVER REMOVE ME! --*/
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 46, ../sass/cssMediaQueries.scss */
+  /* line 49, ../sass/cssMediaQueries.scss */
   main.categories {
     width: 992px;
     display: block;
@@ -309,7 +305,7 @@ form input[type="password"] {
     margin-right: auto;
   }
 
-  /* line 53, ../sass/cssMediaQueries.scss */
+  /* line 56, ../sass/cssMediaQueries.scss */
   .container,
   .navbar-static-top .container,
   .navbar-fixed-top .container,
@@ -317,13 +313,13 @@ form input[type="password"] {
     width: 100%;
   }
 
-  /* line 56, ../sass/cssMediaQueries.scss */
+  /* line 59, ../sass/cssMediaQueries.scss */
   .post_row .col-sm-4 {
     margin: 10px 0;
     padding: 0;
   }
 
-  /* line 61, ../sass/cssMediaQueries.scss */
+  /* line 64, ../sass/cssMediaQueries.scss */
   .categories-container .col-sm-3 {
     margin-bottom: 30px;
   }

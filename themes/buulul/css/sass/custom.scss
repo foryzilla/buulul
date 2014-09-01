@@ -98,20 +98,14 @@ main{
     .btn-block{
         margin: 0 auto 5px;
         max-width: 95%;
-    }
-    .back-button{
-        display: block;
-        margin-top: 25px;
-        padding: 8px 0;
-        width: 115px;
-    }
+    }    
 }
-/*-- google map --*/
-#map_canvas {
-        width: 500px;
-        height: 400px;
-        background-color: #CCC;
-      }
+.back-button{
+    display: block;
+    margin-top: 25px;
+    padding: 8px 0;
+    width: 115px;
+}
 /*-- Footer --*/
 #footer{
     background-color: #046792 !important;

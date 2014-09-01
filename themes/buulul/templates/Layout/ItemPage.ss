@@ -1,12 +1,17 @@
 <div id="blog">
     <div class="container">
+        <% loop $Parent %>
+        <a href="categories/$Title" class="back-button btn btn-warning btn-xs">Back $Title</a>
+        <% end_loop %>
         <div class="section_header">
             <h3>$Title</h3>
         </div>
         <div class="row">
             <div class="col-sm-8">
-                <!-- ThumbnailImage.CroppedImage(582,360) -->
-                <div id="map_canvas"></div>
+                <div id="map_canvas">
+                    <iframe width="600" height="450" frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/search?q=$Title%20$City%20$State&key=AIzaSyAgUdL7BFSkTDJJkduX_qdN_LusFwauV_w"></iframe>
+                </div>
                 <div class="post_content">
                     <address>
                         <p>$Address<br>
@@ -26,16 +31,3 @@
         </div>
     </div>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script>
-    function initialize() {
-      var map_canvas = document.getElementById('map_canvas');
-      var map_options = {
-        center: new google.maps.LatLng($Latitude, $Longitude),
-        zoom: 20,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      }
-      var map = new google.maps.Map(map_canvas, map_options);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-  </script>
