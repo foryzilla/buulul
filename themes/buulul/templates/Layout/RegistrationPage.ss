@@ -1,10 +1,3 @@
-<!--<div class="typography">
-    <h1>$Title</h1>
-    <%-- $RegistrationForm --%>
-</div>-->
-
-
-<!-- Sign In Option 2 -->
     <div id="sign_up2">
         <div class="container">
             <div class="section_header">
@@ -57,16 +50,6 @@
                                         <span>Already have an account?</span>
                                         <a href="sign-in.html">Sign in</a>
                                     </div>
-                                <!--<form>
-                                    <input type="text" placeholder="Email" class="form-control">
-                                    <input type="text" placeholder="Password" class="form-control">
-                                    <input type="text" placeholder="Confirm Password" class="form-control">
-                                    <div class="forgot">
-                                        <span>Already have an account?</span>
-                                        <a href="sign-in.html">Sign in</a>
-                                    </div>
-                                    <input type="submit" value="sign up">
-                                </form>-->
                             </div>
 
                         </div>

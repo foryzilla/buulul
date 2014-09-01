@@ -1,8 +1,5 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: $screen-mb-min) {
-    main{
-        text-align: center;    
-    }
     #blog{
         .post_row .post .text{
             width: 100%;

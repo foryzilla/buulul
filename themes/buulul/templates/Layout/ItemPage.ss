@@ -14,9 +14,9 @@
                 </div>
                 <div class="post_content">
                     <address>
-                        <p>$Address<br>
+                        <p>$Address<br><br>
                             $City $State $Country<br>
-                            <span class="glyphicon glyphicon-earphone"></span>&nbsp;<a href="telephone: $Telephone">$Telephone</a><br>
+                            <span class="glyphicon glyphicon-earphone"></span>&nbsp;<a href="telephone: $Telephone">$Telephone</a><br><br>
                             <span>$RateableUI</span>
                         </p>
                     </address>

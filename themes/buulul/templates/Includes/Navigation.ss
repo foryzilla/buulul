@@ -7,7 +7,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
               </button>
-              <a href="index.html" class="navbar-brand">
+              <a href="categories/" class="navbar-brand">
 		<strong>
 			$SiteConfig.Title
 		</strong>

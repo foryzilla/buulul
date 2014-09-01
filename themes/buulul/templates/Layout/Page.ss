@@ -1,219 +1,63 @@
-    <% include HomePageSlider %>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            $Form    
-        </div>
-    </div>
-</div>
-<div id="portfolio">
+<%-- include HomePageSlider --%>
+
+<!-- Sign In Option 2 -->
+    <div id="sign_up2">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="filters_container">
-                        <ul id="filters">
-                            <li><a href="#" data-filter="*" class="active">All</a></li>
-                            <li class="separator">/</li>
-                            <li><a href="#" data-filter=".art">Farmacias</a></li>
-                            <li class="separator">/</li>
-                            <li><a href="#" data-filter=".ilustration">Aseguranzas</a></li>
-                            <li class="separator">/</li>
-                            <li><a href="#" data-filter=".print">Dental</a></li>
-                            <li class="separator">/</li>
-                            <li><a href="#" data-filter=".web">Medicos</a></li>
-                        </ul>
+            <div class="section_header">
+                <h3>$Title</span></h3>
+            </div>
+            <div class="row login">
+                <div class="col-sm-5 left_box">
+                    <h4>Create your account</h4>
+
+                    <div class="perk_box">
+                        <div class="perk">
+                            <span class="icos ico1"></span>
+                            <p><strong>Lorem alteration</strong> in some form  injected humour these randomised words .</p>
+                        </div>
+                        <div class="perk">
+                            <span class="icos ico2"></span>
+                            <p><strong>There are many variations</strong> of passages of Lorem alteration in some form  injected humour these randomised words.</p>
+                        </div>
+                        <div class="perk">
+                            <span class="icos ico3"></span>
+                            <p><strong>Alteration in some form</strong> injected humour these randomised words.</p>
+                        </div>
                     </div>
                 </div>
-            </div>            
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="gallery_container">
-                        <!-- post start -->
-                        <div class="photo art web">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio1.png" class="img-responsive" />
+
+                <div class="col-sm-6 signin_box">
+                    <div class="box">
+                        <div class="box_cont">
+                            <div class="social">
+                                <a href="#" class="circle facebook">
+                                    <img src="themes/buulul/cleancanvas/img/face.png" alt="">
+                                </a>
+                                 <a href="#" class="circle twitter">
+                                    <img src="themes/buulul/cleancanvas/img/twt.png" alt="">
+                                </a>
+                                 <a href="#" class="circle gplus">
+                                    <img src="themes/buulul/cleancanvas/img/gplus.png" alt="">
                                 </a>
                             </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
+
+                            <div class="division">
+                                <div class="line l"></div>
+                                <span>or</span>
+                                <div class="line r"></div>
                             </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
+                            
+                            <div class="form">
+                                $Form
+                                <div class="forgot">
+                                        <span>Already have an account?</span>
+                                        <a href="sign-in.html">Sign in</a>
+                                    </div>
                             </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        
-                        <div class="photo ilustration">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio2.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo print">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio3.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo art web">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio3.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo art ilustration">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio1.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo print">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio3.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo web">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio2.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo art ilustration web">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio3.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
-                        </div>
-                        <div class="photo print">
-                            <div class="img">
-                                <a href="blogpost.html">
-                                    <img src="$ThemeDir/cleancanvas/img/portfolio1.png" class="img-responsive" />
-                                </a>
-                            </div>
-                            <div class="text post-text-container">
-                                <h5><a href="blogpost.html">Clean Canvas beautiful responsive theme.</a></h5>
-                                <span class="date">Wed, 12 Dec.</span>
-                                <p>
-                                    There are many variations of passages of generators on the  embarrassing hidden in  slightly distracted by these distribution of letters, as opposed.</p>
-                            </div>
-                            <div class="author_box">
-                                <h6>Alejandra Galvan</h6>
-                                <p>Creative Director</p>
-                            </div>
-                            <a class="plus_wrapper" href="blogpost.html">
-                                <span>&#43;</span>
-                            </a>
+
                         </div>
                     </div>
+                </div>
             </div>
-        </div>            
-    </div>
-
-<!-- starts footer -->
-
+        </div>
+    </div> 

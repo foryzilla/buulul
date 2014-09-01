@@ -5,7 +5,7 @@
             <% end_loop %>
             <div class="section_header">
                 <h3>$Title</h3>
-                <!--<input type="text" class="search-query form-control" placeholder="Search">-->                 
+                <!--<input type="text" class="search-query form-control" placeholder="Search">-->
             </div>
             <div class="row post_row">
             <% loop $Children %>
@@ -25,14 +25,17 @@
                                 $City $State $Country<br>
                                 <span class="glyphicon glyphicon-earphone"></span>&nbsp;<a href="telephone: $Telephone">$Telephone</a><br>
                                 <% if $CurrentMember %>
-                                     $RateableUI   
+                                $RateableUI     
                                 <% end_if %>
                             </address>
                         </div>
                     </div>
                 </div>                
                 <a href="$Link" class="visible-xs-block btn btn-primary btn-lg btn-block">
-                        $Title $RateableUI
+                        $Title
+                        <% if $CurrentMember %>
+                        $RateableUI
+                        <% end_if %>
                 </a>
             <% end_loop %>
             </div>
