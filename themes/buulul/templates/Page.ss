@@ -5,7 +5,7 @@
 <!--[if IE 6 ]><html lang="$ContentLocale" class="ie ie6"><![endif]-->
 <!--[if IE 7 ]><html lang="$ContentLocale" class="ie ie7"><![endif]-->
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]--> 
-<html>
+<html lang="$ContentLocale" xml:lang="$ContentLocale" xmlns= "http://www.w3.org/1999/xhtml">
 <head>
   <% base_tag %>
   $MetaTags(false)
@@ -34,6 +34,8 @@
   <script src="$ThemeDir/cleancanvas/js/index-slider.js"></script>
   <script src="$ThemeDir/cleancanvas/js/jquery.countdown.min.js"></script>
   <script src="$ThemeDir/javascript/custom.buulul.js" type="text/javascript"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js" type="text/javascript"></script>
+  
   <% include Analyticstracking %>
 </body>
 </html>
