@@ -1,7 +1,7 @@
 <div id="blog">
     <div class="container">
         <% loop $Parent %>
-        <a href="categories/$Title" class="back-button btn btn-warning btn-xs">Back $Title</a>
+        <a href="$Link" class="back-button btn btn-warning btn-xs"><span class="glyphicon glyphicon-chevron-left"></span> $Title</a>
         <% end_loop %>
         <div class="section_header">
             <h3>$Title</h3>
