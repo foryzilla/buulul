@@ -141,36 +141,39 @@ main {
 }
 
 /*-- Categories Holder --*/
-/* line 55, ../sass/custom.scss */
-.categories #blog {
+/* line 56, ../sass/custom.scss */
+.categories #blog,
+.categorias #blog {
   margin-top: 0;
 }
-/* line 58, ../sass/custom.scss */
-.categories #blog .container .post_row .col-sm-3 {
+/* line 59, ../sass/custom.scss */
+.categories #blog .container .post_row .col-sm-3,
+.categorias #blog .container .post_row .col-sm-3 {
   max-width: 237px;
   margin-right: 5px;
   padding: 0;
 }
-/* line 63, ../sass/custom.scss */
-.categories #blog .post_row .post {
+/* line 64, ../sass/custom.scss */
+.categories #blog .post_row .post,
+.categorias #blog .post_row .post {
   padding-top: 0px;
 }
 
-/* line 68, ../sass/custom.scss */
+/* line 69, ../sass/custom.scss */
 #blog {
   margin-top: 0px;
 }
-/* line 71, ../sass/custom.scss */
+/* line 72, ../sass/custom.scss */
 #blog .post_row .post {
   padding-top: 20px;
 }
-/* line 74, ../sass/custom.scss */
+/* line 75, ../sass/custom.scss */
 #blog .post_row .post:hover {
   background-color: #87CEFF;
   color: #ffffff;
   box-shadow: 0px 0px 0px 5px #87ceff;
 }
-/* line 77, ../sass/custom.scss */
+/* line 78, ../sass/custom.scss */
 #blog .post_row .post .img img {
   display: block;
   margin-left: auto;
@@ -179,7 +182,7 @@ main {
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-/* line 81, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 #blog .post_row .post .img img:hover {
   display: block;
   margin-left: auto;
@@ -188,28 +191,28 @@ main {
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
 }
-/* line 85, ../sass/custom.scss */
+/* line 86, ../sass/custom.scss */
 #blog .text .rateable-ui {
   margin: 0 auto;
 }
 
-/* line 90, ../sass/custom.scss */
+/* line 91, ../sass/custom.scss */
 #blog.categories-container .post_row .post .text {
   padding-bottom: 18px;
   text-align: center;
   line-height: 21px;
 }
-/* line 95, ../sass/custom.scss */
+/* line 96, ../sass/custom.scss */
 #blog.categories-container .post {
   min-height: 400px;
 }
-/* line 98, ../sass/custom.scss */
+/* line 99, ../sass/custom.scss */
 #blog.categories-container .btn-block {
   margin: 0 auto 5px;
   max-width: 95%;
 }
 
-/* line 103, ../sass/custom.scss */
+/* line 104, ../sass/custom.scss */
 .back-button {
   display: block;
   margin-top: 25px;
@@ -218,7 +221,7 @@ main {
 }
 
 /*-- Footer --*/
-/* line 110, ../sass/custom.scss */
+/* line 111, ../sass/custom.scss */
 #footer {
   background-color: #046792 !important;
   margin-top: 0;
@@ -227,7 +230,7 @@ main {
   padding-top: 0;
   /* overriding cleancanvas, but remove after new social media has been added to the footer. - end */
 }
-/* line 113, ../sass/custom.scss */
+/* line 114, ../sass/custom.scss */
 #footer .credits {
   border: 0;
 }
@@ -254,35 +257,37 @@ form input[type="password"] {
     margin: 24px 0 20px;
   }
 
-  /* line 12, ../sass/cssMediaQueries.scss */
-  .categories #blog .post_row .post {
+  /* line 13, ../sass/cssMediaQueries.scss */
+  .categories #blog .post_row .post,
+  .categorias #blog .post_row .post {
     width: auto;
     padding-bottom: 0;
   }
-  /* line 16, ../sass/cssMediaQueries.scss */
-  .categories #blog .container .post_row .col-sm-3 {
+  /* line 17, ../sass/cssMediaQueries.scss */
+  .categories #blog .container .post_row .col-sm-3,
+  .categorias #blog .container .post_row .col-sm-3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 21, ../sass/cssMediaQueries.scss */
+  /* line 22, ../sass/cssMediaQueries.scss */
   .categories-container .post_row .post .img img {
     width: 90%;
     height: 90%;
   }
 
   /*-- google map --*/
-  /* line 26, ../sass/cssMediaQueries.scss */
+  /* line 27, ../sass/cssMediaQueries.scss */
   #map_canvas {
     margin-bottom: 10px;
   }
-  /* line 28, ../sass/cssMediaQueries.scss */
+  /* line 29, ../sass/cssMediaQueries.scss */
   #map_canvas iframe {
     width: 100%;
   }
 
-  /* line 34, ../sass/cssMediaQueries.scss */
+  /* line 35, ../sass/cssMediaQueries.scss */
   #footer .credits {
     margin-top: 0;
   }
@@ -292,15 +297,16 @@ form input[type="password"] {
 /*-- NEVER REMOVE ME! --*/
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 46, ../sass/cssMediaQueries.scss */
-  main.categories {
+  /* line 48, ../sass/cssMediaQueries.scss */
+  main.categories,
+  main.categorias {
     width: 992px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 53, ../sass/cssMediaQueries.scss */
+  /* line 55, ../sass/cssMediaQueries.scss */
   .container,
   .navbar-static-top .container,
   .navbar-fixed-top .container,
@@ -308,13 +314,13 @@ form input[type="password"] {
     width: 100%;
   }
 
-  /* line 56, ../sass/cssMediaQueries.scss */
+  /* line 58, ../sass/cssMediaQueries.scss */
   .post_row .col-sm-4 {
     margin: 10px 0;
     padding: 0;
   }
 
-  /* line 61, ../sass/cssMediaQueries.scss */
+  /* line 63, ../sass/cssMediaQueries.scss */
   .categories-container .col-sm-3 {
     margin-bottom: 30px;
   }

@@ -35,6 +35,8 @@
   <script src="$ThemeDir/cleancanvas/js/jquery.countdown.min.js"></script>
   <script src="$ThemeDir/javascript/custom.buulul.js" type="text/javascript"></script>
   <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.1/angular.min.js"></script>
+  <script src="$ThemeDir/javascript/underscore.js" type="text/javascript"></script>
   
   <% include Analyticstracking %>
 </body>

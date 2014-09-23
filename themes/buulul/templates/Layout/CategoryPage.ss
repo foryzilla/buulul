@@ -23,7 +23,17 @@
                                 <address>
                                     $Address<br>
                                     $City $State $Country<br>
-                                    <span class="glyphicon glyphicon-earphone"></span>&nbsp;<a href="telephone: $Telephone">$Telephone</a><br>
+                                    <% if Telephone %>
+                                        <span class="glyphicon glyphicon-earphone"></span>&nbsp;<a href="telephone: $Telephone">$Telephone</a><br>
+                                    <% else %>
+                                        <span class="glyphicon glyphicon-earphone"></span>&nbsp;                                        
+                                        <% if Locale.RFC1766 == en-US %>
+                                                Not Available                                                        
+                                        <% else %>
+                                                No Disponible
+                                        <% end_if %>
+                                        <br />
+                                    <% end_if %>
                                     <% if $CurrentMember %>
                                     $RateableUI     
                                     <% end_if %>

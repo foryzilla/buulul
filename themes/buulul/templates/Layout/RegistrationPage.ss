@@ -1,12 +1,11 @@
-    <div id="sign_up2">
+    <div id="sign_up2" ng-app>
         <div class="container">
             <div class="section_header">
                 <h3>$Title</span></h3>
             </div>
             <div class="row login">
                 <div class="col-sm-5 left_box">
-                    <h4>Create your account</h4>
-
+                    <h4>{{yourName}} Please create your account</h4>
                     <div class="perk_box">
                         <div class="perk">
                             <span class="icos ico1"></span>
@@ -47,7 +46,7 @@
                             <div class="form">
                                 $RegistrationForm
                                 <div class="forgot">
-                                        <span>Already have an account?</span>
+                                        <span>Hi {{yourName}} do you have an account?</span>
                                         <a href="sign-in.html">Sign in</a>
                                     </div>
                             </div>
@@ -57,4 +56,5 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
+<script src="$ThemeDir/javascript/registration.js" type="text/javascript"></script>

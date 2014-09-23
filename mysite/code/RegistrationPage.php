@@ -9,10 +9,16 @@ class RegistrationPage_Controller extends Page_Controller{
     static $allowed_actions = array('RegistrationForm');
     //Generate the registration form
     function RegistrationForm(){
-	$nameField = TextField::create('Name');//->addExtraClass('form-control');	
+	//$nameField = FormField::create('Name')->setAttribute('data-bind', 'text: name')->addExtraClass('form-control'); 
+	//$nameField = FormField->TextField::create('Name')->setAttribute('data-bind', 'test')->addExtraClass('form-control');
+	
+	$nameField = TextField::create('Name');
 	$emailField = EmailField::create('Email');//->addExtraClass('form-control');
 	$confirmPasswordField = ConfirmedPasswordField::create('Password');//->addExtraClass('form-control');
 	
+	//Applying angular JS binding to name field.
+	$nameField->setAttribute('ng-model', 'yourName');
+		
 	$fields = new Fieldlist(
 			$nameField,			
 			$emailField,			

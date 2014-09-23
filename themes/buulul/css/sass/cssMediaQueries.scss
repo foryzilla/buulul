@@ -8,7 +8,8 @@
     } 
     .section_header{
         margin: 24px 0 20px;    }
-    .categories{
+    .categories,
+    .categorias{
         #blog .post_row .post{
             width: auto;
             padding-bottom: 0;
@@ -43,7 +44,8 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) {
-    main.categories{
+    main.categories,
+    main.categorias{
         width: 992px;
         @include center-block();
     } 
