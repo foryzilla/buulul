@@ -23,8 +23,7 @@ class RegistrationPage_Controller extends Page_Controller{
 			$nameField,			
 			$emailField,			
 			$confirmPasswordField
-                        );	
-	
+                        );
 //	$fields = new Fieldlist(
 //                        new TextField('Name', '<span>*</span> Name (or Nickname)'),
 //			new EmailField('Email', '<span>*</span> Email'),
@@ -69,12 +68,15 @@ class RegistrationPage_Controller extends Page_Controller{
 	    }
 	    //Add member to user group
 	    $userGroup->Members()->add($Member);
-	    
+	    return $this->redirect('register/thank-you-for-registering');
+	
 	    //Get profile page
 	    /*if($ProfilePage = DataObject::get_one('EditProfilePage'))
 	    {
 	    return Director::redirect($ProfilePage->Link('?success=1');
 	    }*/
+	    
+	    
     }
     
 }
